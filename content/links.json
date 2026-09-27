@@ -10,8 +10,8 @@
     "description": "Situs resmi OJK: informasi SLIK, perlindungan konsumen, dan daftar lembaga berizin."
   },
   {
-    "title": "DANA",
+    "title": "{provider}",
     "url": "https://www.dana.id",
-    "description": "Situs resmi DANA untuk syarat, ketentuan, dan informasi layanan terbaru."
+    "description": "Situs resmi {provider} untuk syarat, ketentuan, dan informasi layanan terbaru."
   }
 ]

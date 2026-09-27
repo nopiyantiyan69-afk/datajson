@@ -2,70 +2,120 @@
   {
     "id": "q1",
     "prompt": "Siapa yang menentukan disetujui atau tidaknya PayLater?",
-    "options": ["Aplikasi panduan", "Penyedia layanan dan mitra pembiayaannya", "Siapa saja yang mengaku orang dalam", "Teman yang sudah punya PayLater"],
+    "options": [
+      "Aplikasi panduan",
+      "Penyedia layanan dan mitra pembiayaannya",
+      "Siapa saja yang mengaku orang dalam",
+      "Teman yang sudah punya PayLater"
+    ],
     "answerIndex": 1,
     "explanation": "Persetujuan dan limit ditentukan penyedia dan mitranya dengan sistem penilaian mereka sendiri."
   },
   {
     "id": "q2",
     "prompt": "Kode OTP boleh dibagikan kepada...",
-    "options": ["Layanan pelanggan di media sosial", "Teman dekat", "Tidak kepada siapa pun", "Jasa aktivasi"],
+    "options": [
+      "Layanan pelanggan di media sosial",
+      "Teman dekat",
+      "Tidak kepada siapa pun",
+      "Jasa aktivasi"
+    ],
     "answerIndex": 2,
     "explanation": "OTP adalah kunci akun. Layanan resmi tidak pernah memintanya."
   },
   {
     "id": "q3",
     "prompt": "Kredit bank menunggak 95 hari. Menurut POJK 40/2019, kategorinya...",
-    "options": ["Kol 1 Lancar", "Kol 2 Dalam Perhatian Khusus", "Kol 3 Kurang Lancar", "Kol 5 Macet"],
+    "options": [
+      "Kol 1 Lancar",
+      "Kol 2 Dalam Perhatian Khusus",
+      "Kol 3 Kurang Lancar",
+      "Kol 5 Macet"
+    ],
     "answerIndex": 2,
     "explanation": "Tunggakan 91 sampai 120 hari masuk Kol 3 (Kurang Lancar)."
   },
   {
     "id": "q4",
     "prompt": "Cara resmi perorangan meminta laporan SLIK adalah...",
-    "options": ["Membeli dari akun media sosial", "Lewat iDebku OJK", "Lewat aplikasi panduan ini", "Tidak bisa diminta"],
+    "options": [
+      "Membeli dari akun media sosial",
+      "Lewat iDebku OJK",
+      "Lewat aplikasi panduan ini",
+      "Tidak bisa diminta"
+    ],
     "answerIndex": 1,
     "explanation": "Laporan iDeb bisa diminta sendiri lewat iDebku OJK tanpa biaya."
   },
   {
     "id": "q5",
     "prompt": "Dengan biaya per bulan yang sama, makin panjang tenor, total biayanya...",
-    "options": ["Makin kecil", "Sama saja", "Makin besar", "Menjadi nol"],
+    "options": [
+      "Makin kecil",
+      "Sama saja",
+      "Makin besar",
+      "Menjadi nol"
+    ],
     "answerIndex": 2,
     "explanation": "Biaya dibayar setiap bulan, jadi makin lama tenor, makin besar totalnya."
   },
   {
     "id": "q6",
     "prompt": "Patokan umum total cicilan terhadap penghasilan bersih yang sering dipakai perencana keuangan adalah...",
-    "options": ["Tidak lebih dari 30%", "Sampai 70%", "Sampai 90%", "Tidak ada batas"],
+    "options": [
+      "Tidak lebih dari 30%",
+      "Sampai 70%",
+      "Sampai 90%",
+      "Tidak ada batas"
+    ],
     "answerIndex": 0,
     "explanation": "Patokan umumnya sekitar 30%, dan perlu lebih waspada jika mendekati 40%."
   },
   {
     "id": "q7",
     "prompt": "Akun sudah Premium, tetapi menu PayLater tidak muncul. Penyebab yang paling mungkin...",
-    "options": ["Fitur dibuka bertahap oleh penyedia", "HP rusak", "Harus membayar jasa pihak ketiga", "Harus memasang aplikasi dari luar Play Store"],
+    "options": [
+      "Fitur dibuka bertahap oleh penyedia",
+      "HP rusak",
+      "Harus membayar jasa pihak ketiga",
+      "Harus memasang aplikasi dari luar Play Store"
+    ],
     "answerIndex": 0,
     "explanation": "PayLater umumnya ditawarkan bertahap berdasarkan penilaian penyedia."
   },
   {
     "id": "q8",
     "prompt": "Ada tawaran menaikkan limit dengan syarat menyerahkan OTP. Itu termasuk...",
-    "options": ["Layanan resmi", "Modus penipuan", "Promo bank", "Fitur baru"],
+    "options": [
+      "Layanan resmi",
+      "Modus penipuan",
+      "Promo bank",
+      "Fitur baru"
+    ],
     "answerIndex": 1,
     "explanation": "Hanya penyedia yang bisa mengubah limit, dan layanan resmi tidak pernah meminta OTP."
   },
   {
     "id": "q9",
     "prompt": "Kolektibilitas 1 berarti...",
-    "options": ["Macet", "Lancar", "Diragukan", "Kurang lancar"],
+    "options": [
+      "Macet",
+      "Lancar",
+      "Diragukan",
+      "Kurang lancar"
+    ],
     "answerIndex": 1,
     "explanation": "Kol 1 berarti pembayaran lancar tanpa tunggakan."
   },
   {
     "id": "q10",
     "prompt": "Apakah aplikasi panduan ini bisa menghitung skor kredit resmimu?",
-    "options": ["Bisa, cukup dengan nomor HP", "Bisa, jika mengunggah KTP", "Tidak bisa, karena tidak punya akses ke data dan model biro kredit", "Bisa, lewat kuis ini"],
+    "options": [
+      "Bisa, cukup dengan nomor HP",
+      "Bisa, jika mengunggah KTP",
+      "Tidak bisa, karena tidak punya akses ke data dan model biro kredit",
+      "Bisa, lewat kuis ini"
+    ],
     "answerIndex": 2,
     "explanation": "Skor kredit dihitung dari data riwayat kredit dengan model tertutup. Aplikasi ini hanya menyediakan simulasi kolektibilitas dan indeks kebiasaan bayar."
   }

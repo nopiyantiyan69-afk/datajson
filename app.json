@@ -1,6 +1,7 @@
 {
   "app_name": "Panduan PayLater",
   "app_version": "1.0.0",
+  "provider_name": "DANA",
   "support_email": "support@domainmu.com",
   "privacy_policy_url": "https://domainmu.com/privasi",
   "store_url": "https://play.google.com/store/apps/details?id=com.solusikita.aktivasipaylater",
@@ -26,10 +27,6 @@
     "splash_app_open_timeout_ms": 3500,
     "app_open_on_first_launch": false
   },
-  "content": {
-    "version": 1,
-    "base_url": "https://raw.githubusercontent.com/nopiyantiyan69-afk/datajson/refs/heads/main/content/"
-  },
   "update": {
     "mode": "flexible",
     "immediate_after_days": 7
@@ -39,5 +36,14 @@
     "min_sessions": 3,
     "min_articles_read": 3,
     "cooldown_days": 30
+  },
+  "learning_reminder": {
+    "enabled": true,
+    "inactive_days": 2,
+    "hour": 19
+  },
+  "content": {
+    "version": 1,
+    "base_url": "https://raw.githubusercontent.com/nopiyantiyan69-afk/datajson/refs/heads/main/content/"
   }
 }

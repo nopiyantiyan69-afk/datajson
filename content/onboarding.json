@@ -19,7 +19,7 @@
     "title": "Panduan independen,\nkeputusan tetap di tanganmu",
     "intro": "Tanpa akun. Catatan dan simulasi disimpan di perangkat. Aplikasi menampilkan iklan dari pihak ketiga.",
     "points": [
-      "Aplikasi ini panduan independen, bukan aplikasi resmi DANA, dan tidak berafiliasi dengan DANA, mitra pembiayaannya, maupun OJK.",
+      "Aplikasi ini panduan independen, bukan aplikasi resmi {provider}, dan tidak berafiliasi dengan {provider}, mitra pembiayaannya, maupun OJK.",
       "Aplikasi ini tidak menyediakan layanan keuangan: tidak memproses aktivasi, tidak memberi limit, dan tidak menerima pembayaran.",
       "Aplikasi ini tidak pernah meminta login, PIN, kode OTP, atau foto KTP.",
       "Hasil simulasi hanya perkiraan. Data dan keputusan resmi selalu mengikuti penyedia layanan."

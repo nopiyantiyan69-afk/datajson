@@ -1,13 +1,13 @@
 [
   {
     "id": "premium",
-    "text": "Akun DANA sudah Premium",
+    "text": "Akun {provider} sudah Premium",
     "detail": "Identitas sudah terverifikasi dengan e-KTP dan verifikasi wajah.",
     "articleId": "aktivasi-syarat"
   },
   {
     "id": "update",
-    "text": "Aplikasi DANA sudah versi terbaru",
+    "text": "Aplikasi {provider} sudah versi terbaru",
     "detail": "Perbarui dari Google Play, lalu buka ulang aplikasinya.",
     "articleId": "kendala-status-akun"
   },

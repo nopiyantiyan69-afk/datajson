@@ -2,53 +2,86 @@
   "start": "q_premium",
   "nodes": {
     "q_premium": {
-      "question": "Apakah akun DANA kamu sudah Premium?",
+      "question": "Apakah akun {provider} kamu sudah Premium?",
       "help": "Akun Premium berarti identitas sudah terverifikasi dengan e-KTP dan verifikasi wajah.",
       "options": [
-        {"label": "Belum", "result": "r_premium"},
-        {"label": "Sudah", "next": "q_update"},
-        {"label": "Tidak yakin", "result": "r_premium"}
+        {
+          "label": "Belum",
+          "result": "r_premium"
+        },
+        {
+          "label": "Sudah",
+          "next": "q_update"
+        },
+        {
+          "label": "Tidak yakin",
+          "result": "r_premium"
+        }
       ]
     },
     "q_update": {
-      "question": "Apakah aplikasi DANA sudah versi terbaru?",
+      "question": "Apakah aplikasi {provider} sudah versi terbaru?",
       "help": "Cek di Google Play. Jika ada tombol Perbarui, berarti belum versi terbaru.",
       "options": [
-        {"label": "Belum atau tidak yakin", "result": "r_update"},
-        {"label": "Sudah", "next": "q_symptom"}
+        {
+          "label": "Belum atau tidak yakin",
+          "result": "r_update"
+        },
+        {
+          "label": "Sudah",
+          "next": "q_symptom"
+        }
       ]
     },
     "q_symptom": {
       "question": "Apa yang kamu alami?",
       "help": "",
       "options": [
-        {"label": "Menu PayLater tidak ada sama sekali", "result": "r_not_offered"},
-        {"label": "Menu ada, tetapi aktivasi belum disetujui", "next": "q_overdue"},
-        {"label": "Sudah mengisi data, masih menunggu verifikasi", "result": "r_waiting"}
+        {
+          "label": "Menu PayLater tidak ada sama sekali",
+          "result": "r_not_offered"
+        },
+        {
+          "label": "Menu ada, tetapi aktivasi belum disetujui",
+          "next": "q_overdue"
+        },
+        {
+          "label": "Sudah mengisi data, masih menunggu verifikasi",
+          "result": "r_waiting"
+        }
       ]
     },
     "q_overdue": {
       "question": "Apakah ada tagihan di layanan lain yang sedang lewat jatuh tempo?",
       "help": "Termasuk cicilan bank, kartu kredit, atau PayLater lain.",
       "options": [
-        {"label": "Ada", "result": "r_overdue"},
-        {"label": "Tidak ada", "result": "r_not_approved"}
+        {
+          "label": "Ada",
+          "result": "r_overdue"
+        },
+        {
+          "label": "Tidak ada",
+          "result": "r_not_approved"
+        }
       ]
     }
   },
   "results": {
     "r_premium": {
       "title": "Selesaikan verifikasi akun dulu",
-      "summary": "PayLater hanya tersedia untuk akun DANA Premium.",
+      "summary": "PayLater hanya tersedia untuk akun {provider} Premium.",
       "causes": [
         "Akun belum melewati verifikasi identitas dengan e-KTP dan wajah."
       ],
       "actions": [
-        "Buka menu verifikasi atau upgrade akun di aplikasi DANA.",
+        "Buka menu verifikasi atau upgrade akun di aplikasi {provider}.",
         "Siapkan e-KTP asli dan lakukan verifikasi wajah di tempat yang terang.",
         "Setelah akun Premium, cek kembali menu PayLater secara berkala."
       ],
-      "articleIds": ["aktivasi-syarat", "kendala-status-akun"],
+      "articleIds": [
+        "aktivasi-syarat",
+        "kendala-status-akun"
+      ],
       "tool": "checklist"
     },
     "r_update": {
@@ -58,11 +91,13 @@
         "Versi aplikasi yang terpasang belum memuat fitur atau tampilan terbaru."
       ],
       "actions": [
-        "Perbarui aplikasi DANA dari Google Play.",
+        "Perbarui aplikasi {provider} dari Google Play.",
         "Tutup lalu buka ulang aplikasi.",
         "Cek menu PayLater di bagian semua layanan atau halaman akun."
       ],
-      "articleIds": ["kendala-status-akun"],
+      "articleIds": [
+        "kendala-status-akun"
+      ],
       "tool": ""
     },
     "r_not_offered": {
@@ -79,7 +114,10 @@
         "Cek menu PayLater secara berkala.",
         "Abaikan tawaran jasa yang mengaku bisa memunculkan fitur ini."
       ],
-      "articleIds": ["kendala-berbeda-tiap-akun", "limit-waspada-joki"],
+      "articleIds": [
+        "kendala-berbeda-tiap-akun",
+        "limit-waspada-joki"
+      ],
       "tool": ""
     },
     "r_waiting": {
@@ -89,11 +127,14 @@
         "Data sedang diperiksa oleh mitra pembiayaan."
       ],
       "actions": [
-        "Pantau notifikasi di aplikasi DANA.",
+        "Pantau notifikasi di aplikasi {provider}.",
         "Jangan mengirim data atau OTP ke pihak yang mengaku bisa mempercepat proses.",
         "Jika lama tidak ada kabar, tanyakan lewat layanan pelanggan resmi di aplikasi."
       ],
-      "articleIds": ["aktivasi-langkah", "kendala-layanan-pelanggan"],
+      "articleIds": [
+        "aktivasi-langkah",
+        "kendala-layanan-pelanggan"
+      ],
       "tool": ""
     },
     "r_overdue": {
@@ -107,7 +148,10 @@
         "Bayar tagihan berikutnya tepat waktu.",
         "Coba aktivasi lagi setelah beberapa waktu."
       ],
-      "articleIds": ["tagihan-terlambat", "slik-kolektibilitas"],
+      "articleIds": [
+        "tagihan-terlambat",
+        "slik-kolektibilitas"
+      ],
       "tool": "kolektibilitas"
     },
     "r_not_approved": {
@@ -122,9 +166,12 @@
         "Periksa ulang data profil dan pastikan sesuai e-KTP.",
         "Gunakan akun untuk transaksi rutin dan bayar semua tagihan tepat waktu.",
         "Coba lagi setelah beberapa waktu, sesuai informasi di aplikasi.",
-        "Tanyakan status lewat layanan pelanggan resmi di aplikasi DANA."
+        "Tanyakan status lewat layanan pelanggan resmi di aplikasi {provider}."
       ],
-      "articleIds": ["kendala-aktivasi-gagal", "aktivasi-formulir"],
+      "articleIds": [
+        "kendala-aktivasi-gagal",
+        "aktivasi-formulir"
+      ],
       "tool": "habit"
     }
   }

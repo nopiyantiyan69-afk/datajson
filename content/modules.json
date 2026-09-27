@@ -1,0 +1,38 @@
+[
+  {
+    "id": "aktivasi",
+    "title": "Aktivasi PayLater",
+    "subtitle": "Syarat, langkah, dan data yang perlu disiapkan",
+    "icon": "rocket"
+  },
+  {
+    "id": "kendala",
+    "title": "Kendala & Solusi",
+    "subtitle": "Menu tidak muncul, aktivasi belum berhasil",
+    "icon": "build"
+  },
+  {
+    "id": "tagihan",
+    "title": "Tagihan & Cicilan",
+    "subtitle": "Jatuh tempo, cara bayar, biaya, dan denda",
+    "icon": "receipt"
+  },
+  {
+    "id": "limit",
+    "title": "Limit & Pemakaian Aman",
+    "subtitle": "Cara cek limit dan batas pemakaian pribadi",
+    "icon": "gauge"
+  },
+  {
+    "id": "slik",
+    "title": "SLIK & Riwayat Pembayaran",
+    "subtitle": "Kolektibilitas dan cara cek SLIK resmi",
+    "icon": "history"
+  },
+  {
+    "id": "keamanan",
+    "title": "Keamanan Akun",
+    "subtitle": "PIN, OTP, dan modus penipuan",
+    "icon": "shield"
+  }
+]

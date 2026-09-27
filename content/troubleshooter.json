@@ -1,0 +1,131 @@
+{
+  "start": "q_premium",
+  "nodes": {
+    "q_premium": {
+      "question": "Apakah akun DANA kamu sudah Premium?",
+      "help": "Akun Premium berarti identitas sudah terverifikasi dengan e-KTP dan verifikasi wajah.",
+      "options": [
+        {"label": "Belum", "result": "r_premium"},
+        {"label": "Sudah", "next": "q_update"},
+        {"label": "Tidak yakin", "result": "r_premium"}
+      ]
+    },
+    "q_update": {
+      "question": "Apakah aplikasi DANA sudah versi terbaru?",
+      "help": "Cek di Google Play. Jika ada tombol Perbarui, berarti belum versi terbaru.",
+      "options": [
+        {"label": "Belum atau tidak yakin", "result": "r_update"},
+        {"label": "Sudah", "next": "q_symptom"}
+      ]
+    },
+    "q_symptom": {
+      "question": "Apa yang kamu alami?",
+      "help": "",
+      "options": [
+        {"label": "Menu PayLater tidak ada sama sekali", "result": "r_not_offered"},
+        {"label": "Menu ada, tetapi aktivasi belum disetujui", "next": "q_overdue"},
+        {"label": "Sudah mengisi data, masih menunggu verifikasi", "result": "r_waiting"}
+      ]
+    },
+    "q_overdue": {
+      "question": "Apakah ada tagihan di layanan lain yang sedang lewat jatuh tempo?",
+      "help": "Termasuk cicilan bank, kartu kredit, atau PayLater lain.",
+      "options": [
+        {"label": "Ada", "result": "r_overdue"},
+        {"label": "Tidak ada", "result": "r_not_approved"}
+      ]
+    }
+  },
+  "results": {
+    "r_premium": {
+      "title": "Selesaikan verifikasi akun dulu",
+      "summary": "PayLater hanya tersedia untuk akun DANA Premium.",
+      "causes": [
+        "Akun belum melewati verifikasi identitas dengan e-KTP dan wajah."
+      ],
+      "actions": [
+        "Buka menu verifikasi atau upgrade akun di aplikasi DANA.",
+        "Siapkan e-KTP asli dan lakukan verifikasi wajah di tempat yang terang.",
+        "Setelah akun Premium, cek kembali menu PayLater secara berkala."
+      ],
+      "articleIds": ["aktivasi-syarat", "kendala-status-akun"],
+      "tool": "checklist"
+    },
+    "r_update": {
+      "title": "Perbarui aplikasi, lalu cek lagi",
+      "summary": "Fitur baru biasanya hanya tampil di versi aplikasi terbaru.",
+      "causes": [
+        "Versi aplikasi yang terpasang belum memuat fitur atau tampilan terbaru."
+      ],
+      "actions": [
+        "Perbarui aplikasi DANA dari Google Play.",
+        "Tutup lalu buka ulang aplikasi.",
+        "Cek menu PayLater di bagian semua layanan atau halaman akun."
+      ],
+      "articleIds": ["kendala-status-akun"],
+      "tool": ""
+    },
+    "r_not_offered": {
+      "title": "Fitur belum ditawarkan untuk akunmu",
+      "summary": "PayLater umumnya dibuka bertahap untuk pengguna dengan kriteria tertentu.",
+      "causes": [
+        "Penyedia belum membuka fitur untuk akunmu berdasarkan penilaian mereka.",
+        "Riwayat penggunaan akun masih sedikit.",
+        "Data profil belum lengkap atau belum sesuai."
+      ],
+      "actions": [
+        "Lengkapi data profil sesuai dokumen.",
+        "Gunakan akun untuk transaksi sehari-hari seperti biasa.",
+        "Cek menu PayLater secara berkala.",
+        "Abaikan tawaran jasa yang mengaku bisa memunculkan fitur ini."
+      ],
+      "articleIds": ["kendala-berbeda-tiap-akun", "limit-waspada-joki"],
+      "tool": ""
+    },
+    "r_waiting": {
+      "title": "Tunggu hasil verifikasi",
+      "summary": "Media melaporkan proses verifikasi sekitar 1×24 jam kerja, tetapi waktunya bisa berbeda.",
+      "causes": [
+        "Data sedang diperiksa oleh mitra pembiayaan."
+      ],
+      "actions": [
+        "Pantau notifikasi di aplikasi DANA.",
+        "Jangan mengirim data atau OTP ke pihak yang mengaku bisa mempercepat proses.",
+        "Jika lama tidak ada kabar, tanyakan lewat layanan pelanggan resmi di aplikasi."
+      ],
+      "articleIds": ["aktivasi-langkah", "kendala-layanan-pelanggan"],
+      "tool": ""
+    },
+    "r_overdue": {
+      "title": "Selesaikan tagihan yang menunggak",
+      "summary": "Tunggakan di layanan lain dapat memengaruhi penilaian penyedia.",
+      "causes": [
+        "Riwayat pembayaran yang terlambat dapat terlihat di catatan kredit."
+      ],
+      "actions": [
+        "Lunasi tunggakan lewat aplikasi resmi masing-masing penyedia.",
+        "Bayar tagihan berikutnya tepat waktu.",
+        "Coba aktivasi lagi setelah beberapa waktu."
+      ],
+      "articleIds": ["tagihan-terlambat", "slik-kolektibilitas"],
+      "tool": "kolektibilitas"
+    },
+    "r_not_approved": {
+      "title": "Penilaian belum lolos",
+      "summary": "Penyedia menilai kelayakan dengan kriteria sendiri yang tidak dipublikasikan lengkap.",
+      "causes": [
+        "Data di formulir tidak lengkap atau tidak sesuai identitas.",
+        "Foto e-KTP atau verifikasi wajah kurang jelas.",
+        "Profil belum memenuhi kriteria penyedia pada saat itu."
+      ],
+      "actions": [
+        "Periksa ulang data profil dan pastikan sesuai e-KTP.",
+        "Gunakan akun untuk transaksi rutin dan bayar semua tagihan tepat waktu.",
+        "Coba lagi setelah beberapa waktu, sesuai informasi di aplikasi.",
+        "Tanyakan status lewat layanan pelanggan resmi di aplikasi DANA."
+      ],
+      "articleIds": ["kendala-aktivasi-gagal", "aktivasi-formulir"],
+      "tool": "habit"
+    }
+  }
+}

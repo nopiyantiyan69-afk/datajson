@@ -1,0 +1,50 @@
+[
+  {
+    "id": "premium",
+    "text": "Akun DANA sudah Premium",
+    "detail": "Identitas sudah terverifikasi dengan e-KTP dan verifikasi wajah.",
+    "articleId": "aktivasi-syarat"
+  },
+  {
+    "id": "update",
+    "text": "Aplikasi DANA sudah versi terbaru",
+    "detail": "Perbarui dari Google Play, lalu buka ulang aplikasinya.",
+    "articleId": "kendala-status-akun"
+  },
+  {
+    "id": "profil",
+    "text": "Data profil sudah lengkap dan sesuai",
+    "detail": "Pendidikan, pekerjaan, dan penghasilan diisi sesuai kondisi sebenarnya.",
+    "articleId": "aktivasi-formulir"
+  },
+  {
+    "id": "ektp",
+    "text": "e-KTP asli ada di dekatmu",
+    "detail": "Foto harus jelas, tidak buram, dan tidak terpotong.",
+    "articleId": "aktivasi-formulir"
+  },
+  {
+    "id": "kontak",
+    "text": "Kontak darurat sudah disiapkan",
+    "detail": "Pilih kerabat yang kamu kenal dan beri tahu mereka lebih dulu.",
+    "articleId": "aktivasi-formulir"
+  },
+  {
+    "id": "tunggakan",
+    "text": "Tidak ada tagihan lain yang sedang menunggak",
+    "detail": "Selesaikan dulu tunggakan di layanan kredit lain, jika ada.",
+    "articleId": "tagihan-terlambat"
+  },
+  {
+    "id": "biaya",
+    "text": "Sudah paham biaya, tenor, dan jatuh tempo",
+    "detail": "Baca rincian di halaman konfirmasi sebelum bertransaksi.",
+    "articleId": "aktivasi-setelah-aktif"
+  },
+  {
+    "id": "otp",
+    "text": "OTP hanya kamu masukkan sendiri",
+    "detail": "Jangan bacakan OTP atau PIN kepada siapa pun, termasuk yang mengaku petugas.",
+    "articleId": "keamanan-pin-otp"
+  }
+]

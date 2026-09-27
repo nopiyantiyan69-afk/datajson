@@ -1,0 +1,621 @@
+[
+  {
+    "id": "aktivasi-apa-itu",
+    "moduleId": "aktivasi",
+    "title": "Apa itu PayLater dan cara kerjanya",
+    "summary": "Beli sekarang, bayar nanti. Tetap utang yang punya biaya dan jatuh tempo.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["bnpl", "cara kerja", "mitra pembiayaan"],
+    "sources": [
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"},
+      {"title": "Jambi Independent: cara aktifkan DANA PayLater 2026", "url": "https://jambiindependent.disway.id/metronews/read/710123/ramadan-makin-tenang-begini-cara-aktifkan-dana-paylater-2026-dengan-limit-maksimal"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "PayLater adalah fasilitas beli sekarang, bayar nanti (buy now, pay later). Saat kamu bertransaksi dengan PayLater, penyedia menalangi pembayaran lebih dulu, lalu kamu melunasinya di kemudian hari, sekaligus atau dicicil."},
+      {"type": "p", "text": "Di aplikasi DANA, PayLater disediakan bersama mitra pembiayaan pihak ketiga. Mitra inilah yang menilai kelayakan dan menentukan limit."},
+      {"type": "h", "text": "Yang perlu diingat"},
+      {"type": "bullets", "items": [
+        "Setiap transaksi PayLater adalah utang yang wajib dibayar, bukan saldo tambahan.",
+        "Ada biaya yang disepakati di awal, misalnya biaya layanan atau biaya cicilan per bulan.",
+        "Keterlambatan bisa dikenai denda dan dapat tercatat di riwayat pembayaranmu.",
+        "Limit dan persetujuan ditentukan penyedia, bukan oleh aplikasi panduan mana pun."
+      ]},
+      {"type": "callout", "variant": "tip", "text": "Sebelum memakai PayLater, pastikan cicilannya muat di anggaran bulananmu."},
+      {"type": "tool", "tool": "affordability", "label": "Hitung batas aman cicilan"}
+    ]
+  },
+  {
+    "id": "aktivasi-syarat",
+    "moduleId": "aktivasi",
+    "title": "Syarat umum sebelum aktivasi",
+    "summary": "Akun Premium, data diri lengkap, dan aplikasi versi terbaru.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["syarat", "premium", "verifikasi", "ktp"],
+    "sources": [
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"},
+      {"title": "Jambi Independent: cara aktifkan DANA PayLater 2026", "url": "https://jambiindependent.disway.id/metronews/read/710123/ramadan-makin-tenang-begini-cara-aktifkan-dana-paylater-2026-dengan-limit-maksimal"},
+      {"title": "Headlines.id: syarat muncul fitur DANA PayLater (Agustus 2026)", "url": "https://news.headlines.id/read/hli-1814/bongkar-syarat-muncul-fitur-dana-paylater-terbaru-2026"},
+      {"title": "Situs resmi DANA", "url": "https://www.dana.id"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Syarat pasti ditentukan DANA dan mitranya, dan bisa berubah. Berdasarkan syarat dan ketentuan yang dikutip media per 2026, berikut hal yang umumnya diperlukan."},
+      {"type": "bullets", "items": [
+        "Akun DANA Premium, yaitu akun yang identitasnya sudah terverifikasi dengan e-KTP dan verifikasi wajah.",
+        "Data diri, data keluarga, dan informasi pekerjaan yang lengkap dan sesuai kondisi sebenarnya.",
+        "Nomor HP aktif yang terdaftar untuk menerima kode OTP.",
+        "Aplikasi DANA versi terbaru dari Google Play."
+      ]},
+      {"type": "h", "text": "Fitur tidak selalu langsung tersedia"},
+      {"type": "p", "text": "PayLater umumnya dibuka bertahap. Akun yang sudah memenuhi syarat di atas pun belum tentu langsung melihat menunya, karena penyedia memakai penilaian sendiri, termasuk dari riwayat transaksi."},
+      {"type": "callout", "variant": "warning", "text": "Tidak ada pihak luar yang bisa memunculkan atau mengaktifkan PayLater di akunmu. Tawaran seperti itu patut dicurigai sebagai penipuan."},
+      {"type": "tool", "tool": "checklist", "label": "Buka checklist kesiapan"}
+    ]
+  },
+  {
+    "id": "aktivasi-langkah",
+    "moduleId": "aktivasi",
+    "title": "Langkah aktivasi di aplikasi DANA",
+    "summary": "Urutan umum dari membuka menu PayLater sampai menunggu hasil verifikasi.",
+    "readMinutes": 3,
+    "lastVerified": "2026-09-27",
+    "tags": ["cara aktifkan", "langkah", "otp", "verifikasi wajah"],
+    "sources": [
+      {"title": "Jambi Independent: cara aktifkan DANA PayLater 2026", "url": "https://jambiindependent.disway.id/metronews/read/710123/ramadan-makin-tenang-begini-cara-aktifkan-dana-paylater-2026-dengan-limit-maksimal"},
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"}
+    ],
+    "blocks": [
+      {"type": "callout", "variant": "info", "text": "Nama menu dan urutannya bisa berbeda tergantung versi aplikasi dan akunmu. Langkah di bawah adalah gambaran umum dari pemberitaan media per 2026."},
+      {"type": "steps", "items": [
+        "Masuk ke akun DANA Premium dan pastikan aplikasi sudah versi terbaru.",
+        "Cari menu PayLater, biasanya di bagian semua layanan atau di halaman akun.",
+        "Pilih PayLater, lalu ketuk tombol untuk mulai aktivasi.",
+        "Masukkan kode OTP yang dikirim ke nomor HP-mu. Masukkan sendiri, jangan dibacakan ke siapa pun.",
+        "Isi formulir data diri, pekerjaan, dan penghasilan sesuai kondisi sebenarnya.",
+        "Ikuti verifikasi identitas, misalnya foto e-KTP dan verifikasi wajah, jika diminta.",
+        "Isi kontak darurat dengan kerabat yang mengetahuinya.",
+        "Tunggu hasil verifikasi. Media melaporkan prosesnya sekitar 1×24 jam kerja, tetapi waktunya bisa berbeda."
+      ]},
+      {"type": "p", "text": "Jika disetujui, informasi limit akan muncul di halaman PayLater. Jika belum disetujui, baca materi di modul Kendala & Solusi."},
+      {"type": "tool", "tool": "troubleshooter", "label": "Aktivasi belum berhasil? Cek di sini"}
+    ]
+  },
+  {
+    "id": "aktivasi-formulir",
+    "moduleId": "aktivasi",
+    "title": "Mengisi formulir aktivasi dengan benar",
+    "summary": "Data yang konsisten dan jujur membantu proses verifikasi.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["formulir", "data diri", "kontak darurat", "foto ktp"],
+    "sources": [
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"},
+      {"title": "Jambi Independent: cara aktifkan DANA PayLater 2026", "url": "https://jambiindependent.disway.id/metronews/read/710123/ramadan-makin-tenang-begini-cara-aktifkan-dana-paylater-2026-dengan-limit-maksimal"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Data di formulir aktivasi dipakai mitra pembiayaan untuk menilai profil risiko. Data yang tidak lengkap atau tidak sesuai dengan identitasmu bisa menghambat proses."},
+      {"type": "bullets", "items": [
+        "Tulis nama, tanggal lahir, dan alamat persis sesuai e-KTP.",
+        "Isi pekerjaan dan penghasilan sesuai kondisi sebenarnya. Angka yang dilebih-lebihkan tidak membantu dan bisa membuatmu memakai limit di luar kemampuan bayar.",
+        "Pilih kontak darurat yang benar-benar kamu kenal dan beri tahu mereka lebih dulu.",
+        "Foto e-KTP harus asli, jelas, tidak buram, dan tidak terpotong.",
+        "Lakukan verifikasi wajah di tempat yang cukup terang."
+      ]},
+      {"type": "callout", "variant": "danger", "text": "Jangan memakai jasa pihak ketiga untuk mengisi formulir atau mengaktifkan PayLater. Menyerahkan data akun, PIN, atau OTP ke orang lain berisiko membuat akunmu diambil alih."}
+    ]
+  },
+  {
+    "id": "aktivasi-setelah-aktif",
+    "moduleId": "aktivasi",
+    "title": "Setelah aktif: baca rinciannya dulu",
+    "summary": "Cek limit, biaya, tenor, dan tanggal jatuh tempo sebelum bertransaksi.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["rincian", "biaya", "tenor", "jatuh tempo"],
+    "sources": [
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"},
+      {"title": "Situs resmi DANA", "url": "https://www.dana.id"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Setelah PayLater aktif, biasakan membaca rincian sebelum menekan tombol bayar. Angka resmi selalu ada di halaman konfirmasi transaksi di aplikasi DANA."},
+      {"type": "bullets", "items": [
+        "Limit total dan sisa limit yang bisa dipakai.",
+        "Pilihan tenor: bayar sekaligus atau dicicil beberapa bulan.",
+        "Biaya layanan atau biaya cicilan per bulan.",
+        "Tanggal jatuh tempo pembayaran pertama.",
+        "Denda jika terlambat membayar."
+      ]},
+      {"type": "tool", "tool": "installment", "label": "Simulasikan cicilan"},
+      {"type": "callout", "variant": "tip", "text": "Catat setiap jatuh tempo di menu Tagihan dan pasang pengingat H-3 dan H-1."},
+      {"type": "tool", "tool": "bills", "label": "Catat jatuh tempo"}
+    ]
+  },
+  {
+    "id": "kendala-berbeda-tiap-akun",
+    "moduleId": "kendala",
+    "title": "Kenapa menu PayLater berbeda di tiap akun",
+    "summary": "Fitur dibuka bertahap berdasarkan penilaian penyedia.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["tidak muncul", "tidak ada", "bertahap", "penilaian"],
+    "sources": [
+      {"title": "Jambi Independent: cara aktifkan DANA PayLater 2026", "url": "https://jambiindependent.disway.id/metronews/read/710123/ramadan-makin-tenang-begini-cara-aktifkan-dana-paylater-2026-dengan-limit-maksimal"},
+      {"title": "Headlines.id: syarat muncul fitur DANA PayLater (Agustus 2026)", "url": "https://news.headlines.id/read/hli-1814/bongkar-syarat-muncul-fitur-dana-paylater-terbaru-2026"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Banyak pengguna bingung karena temannya bisa memakai PayLater, sedangkan di akunnya menu itu tidak ada. Hal ini umum terjadi."},
+      {"type": "p", "text": "Menurut pemberitaan per 2026, PayLater di DANA ditawarkan bertahap kepada pengguna dengan kriteria tertentu. Penyedia memakai sistem penilaian yang melihat status verifikasi akun dan pola transaksi."},
+      {"type": "h", "text": "Yang umumnya memengaruhi"},
+      {"type": "bullets", "items": [
+        "Status akun: sudah Premium atau belum.",
+        "Kelengkapan dan kesesuaian data profil.",
+        "Riwayat penggunaan akun untuk transaksi sehari-hari.",
+        "Riwayat pembayaran di layanan kredit lain."
+      ]},
+      {"type": "callout", "variant": "info", "text": "Kriteria lengkapnya tidak dipublikasikan. Panduan ini hanya bisa menjelaskan faktor umum, bukan memastikan kapan menu muncul di akunmu."},
+      {"type": "tool", "tool": "troubleshooter"}
+    ]
+  },
+  {
+    "id": "kendala-status-akun",
+    "moduleId": "kendala",
+    "title": "Status akun, versi aplikasi, dan data profil",
+    "summary": "Tiga hal dasar yang perlu dicek lebih dulu.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["premium", "update aplikasi", "profil"],
+    "sources": [
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"},
+      {"title": "Jambi Independent: cara aktifkan DANA PayLater 2026", "url": "https://jambiindependent.disway.id/metronews/read/710123/ramadan-makin-tenang-begini-cara-aktifkan-dana-paylater-2026-dengan-limit-maksimal"}
+    ],
+    "blocks": [
+      {"type": "h", "text": "1. Status akun"},
+      {"type": "p", "text": "PayLater hanya untuk akun DANA Premium. Jika akunmu belum Premium, selesaikan verifikasi identitas lewat menu yang tersedia di aplikasi DANA."},
+      {"type": "h", "text": "2. Versi aplikasi"},
+      {"type": "p", "text": "Fitur baru biasanya hanya ada di versi terbaru. Perbarui aplikasi DANA dari Google Play, lalu buka ulang aplikasinya."},
+      {"type": "h", "text": "3. Data profil"},
+      {"type": "p", "text": "Pastikan data diri, pekerjaan, dan informasi lain di profil sudah lengkap dan sesuai dokumen."},
+      {"type": "callout", "variant": "tip", "text": "Setelah ketiganya beres, gunakan akun seperti biasa untuk transaksi sehari-hari dan cek menu PayLater secara berkala."}
+    ]
+  },
+  {
+    "id": "kendala-aktivasi-gagal",
+    "moduleId": "kendala",
+    "title": "Aktivasi belum berhasil: yang masih bisa dicek",
+    "summary": "Penolakan tidak selalu permanen. Perbaiki hal yang bisa kamu kendalikan.",
+    "readMinutes": 3,
+    "lastVerified": "2026-09-27",
+    "tags": ["ditolak", "gagal", "belum disetujui"],
+    "sources": [
+      {"title": "Jambi Independent: cara aktifkan DANA PayLater 2026", "url": "https://jambiindependent.disway.id/metronews/read/710123/ramadan-makin-tenang-begini-cara-aktifkan-dana-paylater-2026-dengan-limit-maksimal"},
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Jika aktivasi belum disetujui, alasannya biasanya tidak dijelaskan secara rinci. Beberapa kemungkinan umum:"},
+      {"type": "bullets", "items": [
+        "Data di formulir tidak lengkap atau berbeda dengan data identitas.",
+        "Foto e-KTP atau verifikasi wajah kurang jelas.",
+        "Ada tagihan yang sedang menunggak di layanan kredit lain.",
+        "Profil belum memenuhi kriteria penilaian penyedia pada saat itu."
+      ]},
+      {"type": "h", "text": "Langkah yang masuk akal"},
+      {"type": "steps", "items": [
+        "Periksa ulang data profil dan pastikan sesuai e-KTP.",
+        "Selesaikan tunggakan di layanan lain, jika ada.",
+        "Gunakan akun untuk transaksi rutin dan bayar semua tagihan tepat waktu.",
+        "Coba lagi setelah beberapa waktu, sesuai informasi yang tampil di aplikasi.",
+        "Tanyakan status lewat layanan pelanggan resmi di dalam aplikasi DANA."
+      ]},
+      {"type": "callout", "variant": "warning", "text": "Mengulang aktivasi berkali-kali tanpa memperbaiki penyebabnya kemungkinan besar memberi hasil yang sama."},
+      {"type": "tool", "tool": "kolektibilitas", "label": "Lihat dampak tunggakan"}
+    ]
+  },
+  {
+    "id": "kendala-layanan-pelanggan",
+    "moduleId": "kendala",
+    "title": "Menghubungi layanan pelanggan resmi",
+    "summary": "Gunakan kanal di dalam aplikasi. Waspadai akun palsu.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["cs", "customer service", "bantuan", "akun palsu"],
+    "sources": [
+      {"title": "Situs resmi DANA", "url": "https://www.dana.id"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Untuk pertanyaan tentang akunmu, hubungi layanan pelanggan lewat menu bantuan di dalam aplikasi DANA atau kanal yang tercantum di situs resminya."},
+      {"type": "h", "text": "Ciri layanan pelanggan palsu"},
+      {"type": "bullets", "items": [
+        "Menghubungi duluan lewat chat, telepon, atau media sosial dan menawarkan bantuan aktivasi.",
+        "Meminta PIN, kode OTP, atau foto KTP.",
+        "Meminta transfer biaya untuk membuka fitur atau menaikkan limit.",
+        "Mengirim tautan ke situs atau aplikasi yang alamatnya tidak resmi."
+      ]},
+      {"type": "callout", "variant": "danger", "text": "Layanan resmi tidak pernah meminta PIN dan OTP. Jika sudah terlanjur membagikannya, segera ganti PIN dan hubungi layanan pelanggan resmi."},
+      {"type": "tool", "tool": "links"}
+    ]
+  },
+  {
+    "id": "tagihan-membaca",
+    "moduleId": "tagihan",
+    "title": "Membaca tagihan dan jatuh tempo",
+    "summary": "Kenali pokok, biaya, total, dan tanggal jatuh tempo.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["tagihan", "jatuh tempo", "pokok", "biaya"],
+    "sources": [
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"},
+      {"title": "Situs resmi DANA", "url": "https://www.dana.id"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Rincian tagihan PayLater bisa dilihat di halaman PayLater di aplikasi DANA. Biasakan membacanya setiap kali ada transaksi baru."},
+      {"type": "table", "columns": ["Istilah", "Artinya"], "rows": [
+        ["Pokok", "Nilai transaksi yang ditalangi."],
+        ["Biaya", "Biaya layanan atau cicilan yang disepakati saat transaksi."],
+        ["Total tagihan", "Pokok ditambah biaya yang harus dibayar pada periode itu."],
+        ["Jatuh tempo", "Batas akhir pembayaran tanpa denda."]
+      ]},
+      {"type": "callout", "variant": "tip", "text": "Catat tanggal jatuh tempo di menu Tagihan supaya pengingat muncul sebelum hari H."},
+      {"type": "tool", "tool": "bills"}
+    ]
+  },
+  {
+    "id": "tagihan-cara-bayar",
+    "moduleId": "tagihan",
+    "title": "Cara membayar tagihan PayLater",
+    "summary": "Siapkan saldo sebelum jatuh tempo dan bayar lewat aplikasi resmi.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["cara bayar", "bayar tagihan", "saldo"],
+    "sources": [
+      {"title": "Situs resmi DANA", "url": "https://www.dana.id"},
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Umumnya tagihan PayLater dibayar dari dalam aplikasi DANA. Metode yang tersedia, misalnya memakai saldo DANA, dapat berbeda dan bisa berubah, jadi ikuti pilihan yang tampil di aplikasi."},
+      {"type": "steps", "items": [
+        "Buka halaman PayLater di aplikasi DANA.",
+        "Pilih tagihan yang akan dibayar dan periksa jumlahnya.",
+        "Pastikan saldo atau metode pembayaranmu cukup.",
+        "Konfirmasi pembayaran, lalu simpan bukti atau cek riwayat transaksi.",
+        "Tandai lunas di menu Tagihan aplikasi ini agar pengingat pindah ke periode berikutnya."
+      ]},
+      {"type": "callout", "variant": "danger", "text": "Bayar hanya lewat aplikasi resmi. Jangan transfer ke rekening pribadi yang mengaku sebagai petugas penagihan."}
+    ]
+  },
+  {
+    "id": "tagihan-tenor",
+    "moduleId": "tagihan",
+    "title": "Bayar penuh atau cicil: memahami tenor",
+    "summary": "Tenor panjang membuat cicilan per bulan kecil, tetapi total biaya bisa lebih besar.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["tenor", "cicilan", "simulasi"],
+    "sources": [
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Tenor adalah lama cicilan, misalnya 1, 3, 6, atau 12 bulan. Pilihan tenor yang tersedia ditentukan penyedia."},
+      {"type": "p", "text": "Jika biaya dihitung per bulan dari nominal awal, makin panjang tenor, makin besar total biayanya. Ilustrasi dengan biaya 2% per bulan untuk transaksi Rp1.200.000:"},
+      {"type": "table", "columns": ["Tenor", "Cicilan per bulan", "Total biaya"], "rows": [
+        ["1 bulan", "Rp1.224.000", "Rp24.000"],
+        ["3 bulan", "Rp424.000", "Rp72.000"],
+        ["6 bulan", "Rp224.000", "Rp144.000"],
+        ["12 bulan", "Rp124.000", "Rp288.000"]
+      ]},
+      {"type": "callout", "variant": "info", "text": "Angka di atas hanya ilustrasi. Biaya sebenarnya tercantum di rincian transaksi aplikasi resmi."},
+      {"type": "tool", "tool": "installment"}
+    ]
+  },
+  {
+    "id": "tagihan-biaya-denda",
+    "moduleId": "tagihan",
+    "title": "Biaya layanan dan denda keterlambatan",
+    "summary": "Kenali semua biaya sebelum bertransaksi.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["biaya layanan", "denda", "bunga"],
+    "sources": [
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Biaya PayLater disepakati saat transaksi, misalnya biaya layanan atau biaya cicilan per bulan. Jika pembayaran melewati jatuh tempo, penyedia dapat mengenakan denda keterlambatan."},
+      {"type": "bullets", "items": [
+        "Baca besaran biaya di halaman konfirmasi sebelum menyetujui transaksi.",
+        "Cek ketentuan denda di syarat dan ketentuan layanan.",
+        "Hitung total yang harus dibayar, bukan hanya cicilan per bulan."
+      ]},
+      {"type": "callout", "variant": "warning", "text": "Denda menambah total utang. Keterlambatan juga dapat tercatat dan memengaruhi penilaian saat kamu memakai layanan kredit lain."},
+      {"type": "tool", "tool": "installment"}
+    ]
+  },
+  {
+    "id": "tagihan-terlambat",
+    "moduleId": "tagihan",
+    "title": "Jika tagihan sudah lewat jatuh tempo",
+    "summary": "Segera bayar dan hubungi layanan resmi. Hindari penagih palsu.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["terlambat", "telat bayar", "tunggakan", "penagih"],
+    "sources": [
+      {"title": "DJKN Kemenkeu: mengenal kolektibilitas kredit perbankan", "url": "https://www.djkn.kemenkeu.go.id/kpknl-pekalongan/baca-artikel/14713/Mengenal-Kolektibilitas-Kol-Kredit-Perbankan-Kaitannya-Dengan-dengan-Undang-Undang-No-4-Tahun-1996-UUHT.html"},
+      {"title": "OJK: Sistem Layanan Informasi Keuangan (SLIK)", "url": "https://ojk.go.id/id/kanal/perbankan/Pages/Sistem-Layanan-Informasi-Keuangan-SLIK.aspx"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Makin lama tunggakan dibiarkan, makin besar denda dan dampaknya pada riwayat pembayaran. Pada lembaga yang melapor ke SLIK OJK, kategori kualitas pembayaran bisa turun seiring bertambahnya hari tunggakan."},
+      {"type": "steps", "items": [
+        "Bayar tagihan secepat mungkin lewat aplikasi resmi.",
+        "Jika belum mampu melunasi, hubungi layanan pelanggan resmi untuk menanyakan pilihan yang tersedia.",
+        "Tandai lunas di menu Tagihan setelah membayar.",
+        "Simpan bukti pembayaran."
+      ]},
+      {"type": "callout", "variant": "danger", "text": "Penagih palsu sering meminta transfer ke rekening pribadi atau mengancam lewat chat. Pastikan semua pembayaran hanya lewat aplikasi resmi."},
+      {"type": "tool", "tool": "kolektibilitas", "label": "Lihat dampak hari tunggakan"}
+    ]
+  },
+  {
+    "id": "limit-cek",
+    "moduleId": "limit",
+    "title": "Cara cek limit dan sisa limit",
+    "summary": "Kenali limit total, bagian terpakai, dan sisa limit.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["cek limit", "sisa limit", "limit total"],
+    "sources": [
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Informasi limit ada di halaman PayLater di aplikasi DANA. Umumnya ditampilkan limit total, bagian yang sudah terpakai, dan sisa yang masih bisa dipakai."},
+      {"type": "table", "columns": ["Istilah", "Artinya"], "rows": [
+        ["Limit total", "Batas maksimal yang diberikan penyedia."],
+        ["Terpakai", "Jumlah transaksi yang belum lunas."],
+        ["Sisa limit", "Limit total dikurangi bagian yang terpakai."]
+      ]},
+      {"type": "p", "text": "Sisa limit biasanya bertambah kembali setelah tagihan dibayar. Besaran limit juga dapat berubah sesuai penilaian penyedia."},
+      {"type": "callout", "variant": "info", "text": "Aplikasi panduan ini tidak terhubung ke akunmu, sehingga tidak bisa melihat atau mengubah limit."}
+    ]
+  },
+  {
+    "id": "limit-faktor",
+    "moduleId": "limit",
+    "title": "Faktor yang umumnya memengaruhi limit",
+    "summary": "Tidak ada cara yang menjamin limit naik. Keputusan ada di penyedia.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["naik limit", "menaikkan limit", "faktor"],
+    "sources": [
+      {"title": "minangsatu.com: PayLater di DANA, limit, syarat, dan regulasi OJK (2026)", "url": "https://minangsatu.com/panduan-lengkap-cara-paylater-di-dana-memahami-limit-syarat-dan-regulasi-ojk-terbaru-2026_44886"},
+      {"title": "Jambi Independent: cara aktifkan DANA PayLater 2026", "url": "https://jambiindependent.disway.id/metronews/read/710123/ramadan-makin-tenang-begini-cara-aktifkan-dana-paylater-2026-dengan-limit-maksimal"},
+      {"title": "Headlines.id: syarat muncul fitur DANA PayLater (Agustus 2026)", "url": "https://news.headlines.id/read/hli-1814/bongkar-syarat-muncul-fitur-dana-paylater-terbaru-2026"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Penyedia menentukan dan meninjau limit dengan sistem penilaian sendiri. Kriterianya tidak dipublikasikan secara lengkap, tetapi pemberitaan menyebut beberapa faktor umum:"},
+      {"type": "bullets", "items": [
+        "Ketepatan membayar tagihan PayLater dan layanan kredit lain.",
+        "Kelengkapan dan kebenaran data akun.",
+        "Frekuensi dan pola transaksi di akun.",
+        "Catatan pembayaran di SLIK OJK."
+      ]},
+      {"type": "callout", "variant": "warning", "text": "Waspadai pihak yang menjanjikan bisa menaikkan limit dengan imbalan. Hanya penyedia yang bisa mengubah limit."},
+      {"type": "tool", "tool": "habit", "label": "Cek kebiasaan bayarmu"}
+    ]
+  },
+  {
+    "id": "limit-batas-pribadi",
+    "moduleId": "limit",
+    "title": "Menentukan batas pemakaian pribadi",
+    "summary": "Limit adalah batas dari penyedia, bukan anggaran yang harus dihabiskan.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["batas aman", "rasio cicilan", "30 persen", "anggaran"],
+    "sources": [
+      {"title": "ANTARA: porsi cicilan sebaiknya maksimal 30 persen dari penghasilan (Juni 2026)", "url": "https://www.antaranews.com/berita/5598644/porsi-cicilan-sebaiknya-maksimal-30-persen-dari-penghasilan"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Limit besar tidak berarti kamu mampu membayar sebesar itu. Tentukan batas pribadimu dari penghasilan, bukan dari limit."},
+      {"type": "p", "text": "Patokan umum dari perencana keuangan: total cicilan per bulan sebaiknya tidak lebih dari 30% penghasilan bersih, dan perlu lebih waspada jika mendekati atau melewati 40%."},
+      {"type": "steps", "items": [
+        "Hitung penghasilan bersih per bulan.",
+        "Jumlahkan semua cicilan yang sudah berjalan.",
+        "Tambahkan cicilan baru yang direncanakan.",
+        "Bandingkan totalnya dengan penghasilan di kalkulator batas aman."
+      ]},
+      {"type": "tool", "tool": "affordability"},
+      {"type": "callout", "variant": "info", "text": "Patokan ini acuan edukasi, bukan syarat penyedia dan bukan saran keuangan pribadi."}
+    ]
+  },
+  {
+    "id": "limit-waspada-joki",
+    "moduleId": "limit",
+    "title": "Waspada tawaran naik limit dan jasa pihak ketiga",
+    "summary": "Hanya penyedia yang bisa mengubah limit. Jasa pihak ketiga berisiko.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["joki", "jasa aktivasi", "naik limit", "penipuan"],
+    "sources": [
+      {"title": "Situs resmi DANA", "url": "https://www.dana.id"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Di media sosial sering muncul tawaran jasa untuk mengaktifkan PayLater, menaikkan limit, atau mengubah limit menjadi uang tunai. Tawaran seperti ini berisiko besar."},
+      {"type": "bullets", "items": [
+        "Kamu diminta menyerahkan PIN, OTP, atau akses akun, sehingga akun bisa diambil alih.",
+        "Kamu diminta membayar biaya di muka yang tidak kembali.",
+        "Transaksi atas namamu bisa dipakai orang lain, sedangkan tagihannya tetap menjadi tanggunganmu."
+      ]},
+      {"type": "callout", "variant": "danger", "text": "Jangan pernah menyerahkan PIN, kode OTP, atau akses akun. Laporkan akun yang menawarkan jasa seperti ini ke layanan pelanggan resmi."}
+    ]
+  },
+  {
+    "id": "slik-apa-itu",
+    "moduleId": "slik",
+    "title": "Apa itu SLIK OJK",
+    "summary": "Sistem informasi debitur yang dikelola OJK, dulu dikenal sebagai BI Checking.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["slik", "bi checking", "ideb", "ojk"],
+    "sources": [
+      {"title": "OJK: Sistem Layanan Informasi Keuangan (SLIK)", "url": "https://ojk.go.id/id/kanal/perbankan/Pages/Sistem-Layanan-Informasi-Keuangan-SLIK.aspx"},
+      {"title": "Detik Finance: cara cek SLIK OJK online, gratis dan resmi (Juli 2025)", "url": "https://finance.detik.com/moneter/d-8020735/cara-cek-slik-ojk-secara-online-gratis-dan-resmi"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "SLIK (Sistem Layanan Informasi Keuangan) adalah sistem yang dikelola OJK untuk pertukaran informasi debitur antarlembaga jasa keuangan. Dulu masyarakat mengenalnya sebagai BI Checking."},
+      {"type": "p", "text": "Laporan SLIK untuk perorangan disebut iDeb (informasi debitur). Isinya riwayat fasilitas kredit dan kualitas pembayarannya, yang dinyatakan dalam kategori kolektibilitas 1 sampai 5."},
+      {"type": "callout", "variant": "info", "text": "Yang sering disebut skor SLIK 1 sampai 5 sebenarnya adalah kategori kolektibilitas per fasilitas, bukan skor kredit berbentuk angka tunggal."},
+      {"type": "tool", "tool": "kolektibilitas"}
+    ]
+  },
+  {
+    "id": "slik-kolektibilitas",
+    "moduleId": "slik",
+    "title": "Kolektibilitas 1 sampai 5 dan artinya",
+    "summary": "Kategori kualitas pembayaran berdasarkan lama tunggakan.",
+    "readMinutes": 3,
+    "lastVerified": "2026-09-27",
+    "tags": ["kolektibilitas", "kol 1", "kol 2", "macet", "lancar"],
+    "sources": [
+      {"title": "DJKN Kemenkeu: mengenal kolektibilitas kredit perbankan", "url": "https://www.djkn.kemenkeu.go.id/kpknl-pekalongan/baca-artikel/14713/Mengenal-Kolektibilitas-Kol-Kredit-Perbankan-Kaitannya-Dengan-dengan-Undang-Undang-No-4-Tahun-1996-UUHT.html"},
+      {"title": "Bisnis.com: kualitas pendanaan fintech lending menurut data OJK (2021)", "url": "https://finansial.bisnis.com/read/20210907/563/1439012/tren-kualitas-pinjaman-di-fintech-p2p-lending-berapa-yang-macet"},
+      {"title": "OJK: Sistem Layanan Informasi Keuangan (SLIK)", "url": "https://ojk.go.id/id/kanal/perbankan/Pages/Sistem-Layanan-Informasi-Keuangan-SLIK.aspx"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Untuk kredit bank, ketentuan OJK (POJK 40/POJK.03/2019) membagi kualitas pembayaran menjadi lima kategori berdasarkan lama tunggakan:"},
+      {"type": "table", "columns": ["Kategori", "Nama", "Tunggakan"], "rows": [
+        ["Kol 1", "Lancar", "Tidak ada tunggakan"],
+        ["Kol 2", "Dalam Perhatian Khusus", "1–90 hari"],
+        ["Kol 3", "Kurang Lancar", "91–120 hari"],
+        ["Kol 4", "Diragukan", "121–180 hari"],
+        ["Kol 5", "Macet", "Lebih dari 180 hari"]
+      ]},
+      {"type": "p", "text": "Untuk fintech lending, data OJK memakai kategori lancar, tidak lancar (terlambat sampai 90 hari), dan macet (lebih dari 90 hari)."},
+      {"type": "callout", "variant": "warning", "text": "Bank dapat mempertimbangkan faktor lain selain lama tunggakan, dan lembaga lain seperti perusahaan pembiayaan dapat memakai ketentuan berbeda. Kategori resmi di SLIK ditetapkan dan dilaporkan oleh lembaga pemberi fasilitas."},
+      {"type": "tool", "tool": "kolektibilitas"}
+    ]
+  },
+  {
+    "id": "slik-idebku",
+    "moduleId": "slik",
+    "title": "Cara cek SLIK resmi lewat iDebku",
+    "summary": "Minta laporan iDeb langsung ke OJK tanpa perantara dan tanpa biaya.",
+    "readMinutes": 3,
+    "lastVerified": "2026-09-27",
+    "tags": ["cek slik", "idebku", "bi checking", "gratis"],
+    "sources": [
+      {"title": "Detik Finance: cara cek SLIK OJK online, gratis dan resmi (Juli 2025)", "url": "https://finance.detik.com/moneter/d-8020735/cara-cek-slik-ojk-secara-online-gratis-dan-resmi"},
+      {"title": "OJK: tata cara permohonan informasi debitur lewat iDebku (PDF)", "url": "https://ojk.go.id/id/kanal/perbankan/Documents/Pages/Sistem-Layanan-Informasi-Keuangan-SLIK/Tata%20Cara%20Permohonan%20Informasi%20Debitur%20SLIK%20Online%20pada%20Aplikasi%20iDebku.pdf"},
+      {"title": "iDebku OJK", "url": "https://idebku.ojk.go.id"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Kamu bisa meminta laporan SLIK (iDeb) sendiri secara online lewat iDebku, layanan resmi OJK. Layanan ini tidak dipungut biaya."},
+      {"type": "steps", "items": [
+        "Buka situs idebku.ojk.go.id.",
+        "Pilih menu Pendaftaran.",
+        "Isi data diri sesuai kategori debitur, misalnya perorangan WNI.",
+        "Isi captcha dan lanjutkan.",
+        "Unggah dokumen yang diminta. Untuk perorangan WNI: foto KTP dan swafoto sambil memegang KTP.",
+        "Periksa kembali data, lalu kirim permohonan.",
+        "Simpan nomor pendaftaran yang dikirim ke email.",
+        "Cek status permohonan di menu Status Layanan."
+      ]},
+      {"type": "p", "text": "Menurut pemberitaan, hasil iDeb dikirim ke email paling lambat satu hari kerja setelah permohonan."},
+      {"type": "callout", "variant": "danger", "text": "Lakukan hanya di situs resmi OJK. Jangan memakai jasa perantara yang meminta biaya atau data KTP. Aplikasi ini tidak pernah meminta KTP."},
+      {"type": "tool", "tool": "links", "label": "Buka tautan resmi"}
+    ]
+  },
+  {
+    "id": "slik-skor-kredit",
+    "moduleId": "slik",
+    "title": "Skor kredit dan kolektibilitas: apa bedanya?",
+    "summary": "Kenapa aplikasi ini tidak menampilkan skor kredit.",
+    "readMinutes": 3,
+    "lastVerified": "2026-09-27",
+    "tags": ["skor kredit", "credit score", "kolektibilitas", "indeks"],
+    "sources": [
+      {"title": "OJK: Sistem Layanan Informasi Keuangan (SLIK)", "url": "https://ojk.go.id/id/kanal/perbankan/Pages/Sistem-Layanan-Informasi-Keuangan-SLIK.aspx"},
+      {"title": "Detik Finance: cara cek SLIK OJK online, gratis dan resmi (Juli 2025)", "url": "https://finance.detik.com/moneter/d-8020735/cara-cek-slik-ojk-secara-online-gratis-dan-resmi"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "Kolektibilitas adalah kategori kualitas pembayaran per fasilitas yang tercatat di SLIK. Skor kredit adalah angka ringkasan yang dihitung biro kredit atau penyedia layanan dengan model penilaian milik mereka."},
+      {"type": "p", "text": "Model skor kredit memakai data riwayat kredit yang lengkap dan tidak dipublikasikan. Tanpa akses resmi ke data dan model itu, aplikasi mana pun tidak bisa menghitung skor kreditmu secara akurat."},
+      {"type": "h", "text": "Yang disediakan aplikasi ini"},
+      {"type": "bullets", "items": [
+        "Simulasi kolektibilitas: menunjukkan kategori berdasarkan jumlah hari tunggakan sesuai tabel ketentuan.",
+        "Indeks kebiasaan bayar: refleksi dari jawabanmu sendiri dengan rumus terbuka. Indeks ini bukan skor kredit.",
+        "Panduan meminta laporan SLIK resmi lewat iDebku."
+      ]},
+      {"type": "callout", "variant": "warning", "text": "Waspadai aplikasi atau situs yang mengaku bisa cek skor kredit hanya dengan nomor HP atau KTP tanpa kejelasan izin. Data resmi hanya diberikan OJK atau lembaga yang berizin."},
+      {"type": "tool", "tool": "habit"}
+    ]
+  },
+  {
+    "id": "keamanan-pin-otp",
+    "moduleId": "keamanan",
+    "title": "PIN dan OTP: jangan pernah dibagikan",
+    "summary": "Kode ini adalah kunci akunmu.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["pin", "otp", "keamanan"],
+    "sources": [
+      {"title": "Situs resmi DANA", "url": "https://www.dana.id"}
+    ],
+    "blocks": [
+      {"type": "p", "text": "PIN dan kode OTP berfungsi sebagai kunci akun. Siapa pun yang mengetahuinya bisa bertransaksi atas namamu, termasuk memakai PayLater."},
+      {"type": "bullets", "items": [
+        "Layanan pelanggan resmi tidak pernah meminta PIN atau OTP.",
+        "Jangan membacakan OTP lewat telepon, chat, atau panggilan video.",
+        "Jangan memasukkan PIN di situs atau aplikasi selain aplikasi resmi.",
+        "Aktifkan kunci layar di HP-mu."
+      ]},
+      {"type": "callout", "variant": "danger", "text": "Aplikasi panduan ini tidak pernah meminta login, PIN, OTP, atau foto KTP."}
+    ]
+  },
+  {
+    "id": "keamanan-modus",
+    "moduleId": "keamanan",
+    "title": "Modus penipuan yang sering muncul",
+    "summary": "Kenali polanya supaya tidak terjebak.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["penipuan", "phishing", "tautan palsu", "apk"],
+    "sources": [
+      {"title": "Situs resmi DANA", "url": "https://www.dana.id"}
+    ],
+    "blocks": [
+      {"type": "table", "columns": ["Modus", "Ciri"], "rows": [
+        ["Layanan pelanggan palsu", "Menghubungi duluan dan meminta OTP atau PIN."],
+        ["Tautan palsu", "Alamat situs mirip tapi tidak resmi, lalu meminta login."],
+        ["Jasa naik limit atau aktivasi", "Meminta biaya di muka atau akses akun."],
+        ["Penagih palsu", "Meminta transfer ke rekening pribadi."],
+        ["File aplikasi di luar Play Store", "Dikirim lewat chat dan meminta izin berlebihan."]
+      ]},
+      {"type": "h", "text": "Jika menemukan kejanggalan"},
+      {"type": "steps", "items": [
+        "Hentikan komunikasi dan jangan klik tautan.",
+        "Cek informasi lewat aplikasi atau situs resmi.",
+        "Laporkan ke layanan pelanggan resmi di aplikasi."
+      ]}
+    ]
+  },
+  {
+    "id": "keamanan-akun-bermasalah",
+    "moduleId": "keamanan",
+    "title": "Jika akun terasa tidak aman",
+    "summary": "Langkah pertama saat ada transaksi yang tidak kamu kenali.",
+    "readMinutes": 2,
+    "lastVerified": "2026-09-27",
+    "tags": ["akun dibobol", "transaksi asing", "ganti pin"],
+    "sources": [
+      {"title": "Situs resmi DANA", "url": "https://www.dana.id"}
+    ],
+    "blocks": [
+      {"type": "steps", "items": [
+        "Ganti PIN akun segera.",
+        "Periksa riwayat transaksi dan tagihan PayLater.",
+        "Hubungi layanan pelanggan resmi lewat menu bantuan di aplikasi DANA.",
+        "Keluarkan akun dari perangkat lain jika fitur itu tersedia.",
+        "Simpan bukti, seperti tangkapan layar transaksi dan percakapan."
+      ]},
+      {"type": "callout", "variant": "warning", "text": "Laporkan secepatnya agar layanan resmi bisa segera memeriksa akunmu."},
+      {"type": "tool", "tool": "links"}
+    ]
+  }
+]

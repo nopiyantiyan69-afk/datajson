@@ -23,7 +23,7 @@
     "enable_app_open_ad": true,
     "enable_native_ad": true,
     "fullscreen_cooldown_seconds": 30,
-    "app_open_min_background_seconds": 30,
+    "app_open_min_background_seconds": 10,
     "splash_app_open_timeout_ms": 3500,
     "app_open_on_first_launch": false
   },
@@ -41,6 +41,11 @@
     "enabled": true,
     "inactive_days": 2,
     "hour": 19
+  },
+  "exit_prompt": {
+    "enabled": true,
+    "min_sessions": 3,
+    "cooldown_days": 7
   },
   "content": {
     "version": 1,
